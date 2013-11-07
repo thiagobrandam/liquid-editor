@@ -1,23 +1,25 @@
 == Liquid HTML Editor
 
-Liquid syntax highlighting for the amazing codemirror html source code editor. 
+Liquid syntax highlighting for the amazing codemirror html source code editor.
 
-I hope this will become a full fledged Liquid parser in the future and will become the 
-standard editor control for all hosted applications that support liquid. Syntax highlighting
-and on the fly error checking should help customers a lot while editing.
+== This fork
 
-== Demo 
+This is an altered version of the original Liquid Editor by Tobias Lütke.
+I updated CodeMirror to version 3.16 and substituted his liquid code with
+an HTML+Liquid mode by Henning Kiel, which I find more robust since it uses
+overlay.
 
-http://liquid-editor.heroku.com/index.html
+I removed the standalone demo but to use it, it's just as easy as setting
+the mode to `liquid'.
 
-== Screenshot
+== Demo
 
-http://img.skitch.com/20091108-xbu4cgbqpne6dxyk36hdte4sgg.png
+https://www.evernote.com/shard/s100/sh/6c0d7bd1-1c6a-469e-8c43-c20ff968b18c/aa15b690c052ce27d7e7d6e23ce5790e/res/36115e49-baf6-43e9-b6af-5dd3d51221b2/skitch.png
 
 == Usage
 
   gem install serve
 
-  cd liquid-editor 
+  cd liquid-editor
   serve public
   open http://localhost:4000/
