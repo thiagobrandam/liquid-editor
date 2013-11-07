@@ -8,7 +8,7 @@ This fork
 
 This is an altered version of the original Liquid Editor by Tobias Lütke.
 I updated CodeMirror to version 3.16 and substituted his liquid code with
-an HTML+Liquid mode by Henning Kiel, which I find more robust since it uses
+an HTML+Liquid mode by [Henning Kiel](https://github.com/axtro/codemirror_liquid_mode), which I find more robust since it uses
 overlay.
 
 I removed the standalone demo but to use it, it's just as easy as setting
